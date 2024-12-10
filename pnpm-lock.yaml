@@ -139,8 +139,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       eslint-config-next:
-        specifier: 15.0.3
-        version: 15.0.3(eslint@8.57.1)(typescript@5.7.2)
+        specifier: 15.1.0
+        version: 15.1.0(eslint@8.57.1)(typescript@5.7.2)
       eslint-config-prettier:
         specifier: ^9.1.0
         version: 9.1.0(eslint@8.57.1)
@@ -1356,8 +1356,8 @@ packages:
   '@next/env@14.2.11':
     resolution: {integrity: sha512-HYsQRSIXwiNqvzzYThrBwq6RhXo3E0n8j8nQnAs8i4fCEo2Zf/3eS0IiRA8XnRg9Ha0YnpkyJZIZg1qEwemrHw==}
 
-  '@next/eslint-plugin-next@15.0.3':
-    resolution: {integrity: sha512-3Ln/nHq2V+v8uIaxCR6YfYo7ceRgZNXfTd3yW1ukTaFbO+/I8jNakrjYWODvG9BuR2v5kgVtH/C8r0i11quOgw==}
+  '@next/eslint-plugin-next@15.1.0':
+    resolution: {integrity: sha512-+jPT0h+nelBT6HC9ZCHGc7DgGVy04cv4shYdAe6tKlEbjQUtwU3LzQhzbDHQyY2m6g39m6B0kOFVuLGBrxxbGg==}
 
   '@next/swc-darwin-arm64@14.2.11':
     resolution: {integrity: sha512-eiY9u7wEJZWp/Pga07Qy3ZmNEfALmmSS1HtsJF3y1QEyaExu7boENz11fWqDmZ3uvcyAxCMhTrA1jfVxITQW8g==}
@@ -1867,17 +1867,6 @@ packages:
   '@types/yargs@17.0.33':
     resolution: {integrity: sha512-WpxBCKWPLr4xSsHgz511rFJAM+wS28w2zEO1QDNY5zM/S8ok70NNfztH0xwhqKyaK0OHCbN98LDAZuy1ctxDkA==}
 
-  '@typescript-eslint/eslint-plugin@6.21.0':
-    resolution: {integrity: sha512-oy9+hTPCUFpngkEZUSzbf9MxI65wbKFoQYsgPdILTfbUldp5ovUuphZVe4i30emU9M/kP+T64Di0mxl7dSw3MA==}
-    engines: {node: ^16.0.0 || >=18.0.0}
-    peerDependencies:
-      '@typescript-eslint/parser': ^6.0.0 || ^6.0.0-alpha
-      eslint: ^7.0.0 || ^8.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-
   '@typescript-eslint/eslint-plugin@7.0.0':
     resolution: {integrity: sha512-M72SJ0DkcQVmmsbqlzc6EJgb/3Oz2Wdm6AyESB4YkGgCxP8u5jt5jn4/OBMPK3HLOxcttZq5xbBBU7e2By4SZQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
@@ -1906,16 +1895,6 @@ packages:
   '@typescript-eslint/scope-manager@7.0.0':
     resolution: {integrity: sha512-IxTStwhNDPO07CCrYuAqjuJ3Xf5MrMaNgbAZPxFXAUpAtwqFxiuItxUaVtP/SJQeCdJjwDGh9/lMOluAndkKeg==}
     engines: {node: ^16.0.0 || >=18.0.0}
-
-  '@typescript-eslint/type-utils@6.21.0':
-    resolution: {integrity: sha512-rZQI7wHfao8qMX3Rd3xqeYSMCL3SoiSQLBATSiVKARdFGCYSRvmViieZjqc58jKgs8Y8i9YvVVhRbHSTA4VBag==}
-    engines: {node: ^16.0.0 || >=18.0.0}
-    peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
 
   '@typescript-eslint/type-utils@7.0.0':
     resolution: {integrity: sha512-FIM8HPxj1P2G7qfrpiXvbHeHypgo2mFpFGoh5I73ZlqmJOsloSa1x0ZyXCer43++P1doxCgNqIOLqmZR6SOT8g==}
@@ -1952,12 +1931,6 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
-
-  '@typescript-eslint/utils@6.21.0':
-    resolution: {integrity: sha512-NfWVaC8HP9T8cbKQxHcsJBY5YE1O33+jpMwN45qzWWaPDZgLIbo12toGMWnmhvCpd3sIxkpDw3Wv1B3dYrbDQQ==}
-    engines: {node: ^16.0.0 || >=18.0.0}
-    peerDependencies:
-      eslint: ^7.0.0 || ^8.0.0
 
   '@typescript-eslint/utils@7.0.0':
     resolution: {integrity: sha512-kuPZcPAdGcDBAyqDn/JVeJVhySvpkxzfXjJq1X1BFSTYo1TTuo4iyb937u457q4K0In84p6u2VHQGaFnv7VYqg==}
@@ -2835,8 +2808,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  eslint-config-next@15.0.3:
-    resolution: {integrity: sha512-IGP2DdQQrgjcr4mwFPve4DrCqo7CVVez1WoYY47XwKSrYO4hC0Dlb+iJA60i0YfICOzgNADIb8r28BpQ5Zs0wg==}
+  eslint-config-next@15.1.0:
+    resolution: {integrity: sha512-gADO+nKVseGso3DtOrYX9H7TxB/MuX7AUYhMlvQMqLYvUWu4HrOQuU7cC1HW74tHIqkAvXdwgAz3TCbczzSEXw==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -7460,7 +7433,7 @@ snapshots:
 
   '@next/env@14.2.11': {}
 
-  '@next/eslint-plugin-next@15.0.3':
+  '@next/eslint-plugin-next@15.1.0':
     dependencies:
       fast-glob: 3.3.1
 
@@ -7959,26 +7932,6 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@typescript-eslint/eslint-plugin@6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)':
-    dependencies:
-      '@eslint-community/regexpp': 4.12.1
-      '@typescript-eslint/parser': 6.21.0(eslint@8.57.1)(typescript@5.7.2)
-      '@typescript-eslint/scope-manager': 6.21.0
-      '@typescript-eslint/type-utils': 6.21.0(eslint@8.57.1)(typescript@5.7.2)
-      '@typescript-eslint/utils': 6.21.0(eslint@8.57.1)(typescript@5.7.2)
-      '@typescript-eslint/visitor-keys': 6.21.0
-      debug: 4.3.7
-      eslint: 8.57.1
-      graphemer: 1.4.0
-      ignore: 5.3.2
-      natural-compare: 1.4.0
-      semver: 7.6.3
-      ts-api-utils: 1.3.0(typescript@5.7.2)
-    optionalDependencies:
-      typescript: 5.7.2
-    transitivePeerDependencies:
-      - supports-color
-
   '@typescript-eslint/eslint-plugin@7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)':
     dependencies:
       '@eslint-community/regexpp': 4.12.1
@@ -8021,18 +7974,6 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.0.0
       '@typescript-eslint/visitor-keys': 7.0.0
-
-  '@typescript-eslint/type-utils@6.21.0(eslint@8.57.1)(typescript@5.7.2)':
-    dependencies:
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.7.2)
-      '@typescript-eslint/utils': 6.21.0(eslint@8.57.1)(typescript@5.7.2)
-      debug: 4.3.7
-      eslint: 8.57.1
-      ts-api-utils: 1.3.0(typescript@5.7.2)
-    optionalDependencies:
-      typescript: 5.7.2
-    transitivePeerDependencies:
-      - supports-color
 
   '@typescript-eslint/type-utils@7.0.0(eslint@8.57.1)(typescript@5.7.2)':
     dependencies:
@@ -8079,20 +8020,6 @@ snapshots:
       typescript: 5.7.2
     transitivePeerDependencies:
       - supports-color
-
-  '@typescript-eslint/utils@6.21.0(eslint@8.57.1)(typescript@5.7.2)':
-    dependencies:
-      '@eslint-community/eslint-utils': 4.4.1(eslint@8.57.1)
-      '@types/json-schema': 7.0.15
-      '@types/semver': 7.5.8
-      '@typescript-eslint/scope-manager': 6.21.0
-      '@typescript-eslint/types': 6.21.0
-      '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.7.2)
-      eslint: 8.57.1
-      semver: 7.6.3
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
 
   '@typescript-eslint/utils@7.0.0(eslint@8.57.1)(typescript@5.7.2)':
     dependencies:
@@ -9083,11 +9010,11 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-next@15.0.3(eslint@8.57.1)(typescript@5.7.2):
+  eslint-config-next@15.1.0(eslint@8.57.1)(typescript@5.7.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.3
+      '@next/eslint-plugin-next': 15.1.0
       '@rushstack/eslint-patch': 1.10.4
-      '@typescript-eslint/eslint-plugin': 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)
+      '@typescript-eslint/eslint-plugin': 7.0.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.7.2))(eslint@8.57.1)(typescript@5.7.2)
       '@typescript-eslint/parser': 6.21.0(eslint@8.57.1)(typescript@5.7.2)
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
