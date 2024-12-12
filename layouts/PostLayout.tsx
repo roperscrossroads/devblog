@@ -77,20 +77,6 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 )}
               </div>
             </dl>
-            <div className="divide-y divide-gray-200 xl:col-span-3 xl:row-span-2 xl:pb-0 dark:divide-gray-700">
-              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
-              {/* <div className="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">
-                <Link href={editUrl(filePath)}>View this article on GitHub</Link>
-              </div> */}
-              {/* {siteMetadata.comments && (
-                <div
-                  className="pb-6 pt-6 text-center text-gray-700 dark:text-gray-300"
-                  id="comment"
-                >
-                  <Comments slug={slug} />
-                </div>
-              )} */}
-            </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 xl:col-start-1 xl:row-start-2 xl:divide-y dark:divide-gray-700">
                 {tags && (
